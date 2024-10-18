@@ -1,0 +1,57 @@
+.background-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .background-left {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .image1 {
+    width: 200px; /* Smaller size for image 1 */
+    height: 250px;
+    padding: 50px;
+  }
+  
+  .background-center {
+    flex: 2;
+    text-align:center;
+    padding: 0 10px;
+  }
+  
+  .heading {
+    margin: 0;
+    color:#0096FF;
+  }
+  
+  .title {
+    margin: 10px 0;
+  }
+  
+  .subtitle {
+    margin: 10px 0;
+  }
+  
+  .shop-button {
+    background-color:white; /* Blue button background */
+    color: #0096FF ; /* Button text in white */
+    border: solid #0096FF;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 10px ;
+  }
+  
+  .background-right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .image2 {
+    width: 400px; 
+    height: 500px;
+  }
+  

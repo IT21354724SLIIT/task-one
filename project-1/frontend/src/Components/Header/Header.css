@@ -1,0 +1,56 @@
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #252B42;
+    color:white; /* Optional: adjust background color */
+  }
+  
+  .contact-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .contact-info p {
+    margin-right: 20px; 
+    font-size: 15px;/* Adjust gap between number and email */
+  }
+  .contact-info a {
+    color: white;
+  }
+  
+  .center-message {
+    text-align: center;
+    flex-grow: 1;
+     
+  }
+  .center-message  p{
+    font-size: 15px;
+     
+  }
+  
+  .social-media {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .social-media span {
+    margin-right: 10px;
+  }
+  
+  .social-media a {
+    margin-left: 10px;
+    color:white; /* Adjust icon color */
+  }
+  
+  .social-media a:hover {
+    color: #007bff; /* Hover color for icons */
+  }
+  
+  p {
+    margin: 0;
+    padding: 0;
+  }
+  
